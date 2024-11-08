@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "BrittanySignatur.ttf";
+    src: url(./font/BrittanySignature.ttf);
+}
+
+@font-face {
+    font-family: "Francy.ttf";
+    src: url(./font/Francy.ttf);
+}
+
+body {
+    background: linear-gradient(#00cccc, #fcd700);
+    width: 90%;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    width: 280px;
+}
+a{
+    font-family: "Francy.ttf";
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+.anchor{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: linear-gradient(#03ffff,#fcd700);
+}
+.btn{
+    margin-left: 10px;
+}
+h1{
+    font-size: 45px;
+    font-family: "Francy.ttf";
+    letter-spacing: 5px;
+    margin-left: 430px;
+}
+h2{
+    font-family: "Francy.ttf";
+    letter-spacing: 5px;
+    font-size:30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.img-2{
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 100px;
+}
+p{
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-left: 50px;
+}
+.img-31{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
